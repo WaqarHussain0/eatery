@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,71 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face
+{
+  font-family: cotoris;
+  src: url(./fonts/Cotoris.ttf);
+}
+.cotoris
+{
+  font-family: cotoris;
+}
+
+@font-face
+{
+  font-family: cotorisbold;
+  src: url(./fonts/CotorisBold.ttf);
+}
+.cotoris-bold
+{
+  font-family: cotorisbold;
+}
+
+@font-face
+{
+  font-family: interR;
+  src: url(./fonts/Inter-Regular.ttf);
+}
+.interR
+{
+  font-family: interR;
+}
+
+@font-face
+{
+  font-family: interL;
+  src: url(./fonts/Inter-Light.ttf);
+}
+.interL
+{
+  font-family: interL;
+}
+
+
+@font-face
+{
+  font-family: poppinR;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+.poppinR
+{
+  font-family: poppinR;
+}
+
+
+@font-face
+{
+  font-family: poppinM;
+  src: url(./fonts/Poppins-Medium.ttf);
+}
+.poppinM
+{
+  font-family: poppinM;
+}
+
+.image-fit
+{
+  object-fit: cover;
 }
